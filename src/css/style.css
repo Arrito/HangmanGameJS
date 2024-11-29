@@ -28,4 +28,18 @@
   html {
     font-family: Akzidenz, system-ui, sans-serif;
   }
+  
 }
+
+@layer components{
+  #app {
+    @apply h-screen flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800
+  }
+  .logo-text{
+    @apply text-2xl font-bold underline sm:text-4xl md:text-5xl
+  }
+  .button-primary {
+    @apply bg-gray-400  hover:bg-red-500 hover:text-zinc-50 rounded-md font-medium px-5 py-2 
+  }
+}
+
