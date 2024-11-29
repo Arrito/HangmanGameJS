@@ -39,13 +39,25 @@
     @apply text-2xl font-bold underline sm:text-4xl md:text-5xl
   }
   .button-primary {
-    @apply bg-gray-400  hover:bg-red-500 hover:text-zinc-50 rounded-md font-medium px-5 py-2 
+    @apply flex justify-center items-center bg-gray-400  hover:bg-red-500 hover:text-zinc-50 rounded-md font-medium px-5 py-2 
   }
   .letter{
     @apply mx-2 text-3xl font-medium
   }
   .placeholders-wrapper{
     @apply flex-row flex
+  }
+  .keyboard{
+    @apply max-w-2xl mt-5 flex justify-center flex-wrap
+  }
+  .keyboard-button{
+    @apply w-10 h-10 sm:w-14 sm:h-14 m-1 sm:m-2
+  }
+  .hangman-image{
+    @apply w-32 h-32 sm:w-60 sm:h-60
+  }
+  .logo-textSM{
+    @apply text-xl
   }
 }
 
