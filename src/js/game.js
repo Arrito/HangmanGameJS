@@ -124,10 +124,11 @@ export const finishGame = (status) => {
   } else if (status === "quit") {
     logoH1.classList.remove("logo-textSM");
     document.getElementById("hangman-image").remove();
-    document.getElementById("quit").remove();
+   
   }
   document.getElementById(
     "game"
   ).innerHTML += `<h4>The word was: <span class="result-word">${word}</span></h4><button id='play-again' class="button-primary px-5 py-2 mt-5">PLAY AGAIN</button>`;
   document.getElementById("play-again").onclick = startGame;
+  document.getElementById("quit").remove();
 };
