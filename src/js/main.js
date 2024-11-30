@@ -1,13 +1,8 @@
-import '../css/style.css'
-import { startGame } from './game'
-import { darkModeHandle } from './utils'
+import "../css/style.css";
+import { startGame } from "./game";
+import { darkModeHandle } from "./utils";
 
-darkModeHandle()
+darkModeHandle();
 
-const clickStartGame = document.getElementById('startGame')
-clickStartGame.addEventListener('click', startGame) 
-
-
-
-
-
+const clickStartGame = document.getElementById("startGame");
+clickStartGame.addEventListener("click", startGame);

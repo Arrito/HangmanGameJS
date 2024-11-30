@@ -102,8 +102,8 @@ export const startGame = () => {
     '<button id="quit" class="button-secondary px-2 py-1 mt-4">Quit</button>'
   );
   document.getElementById("quit").onclick = () => {
-   const isSure = confirm('Are you sure you want to quit and lose progress?')
-   isSure ? finishGame("quit") : null ;
+    const isSure = confirm("Are you sure you want to quit and lose progress?");
+    isSure ? finishGame("quit") : null;
   };
 };
 
