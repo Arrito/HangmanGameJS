@@ -6,8 +6,6 @@ You can play the game by visiting [Hangman Game](https://arrito.github.io/Hangma
 ## Description
 This is a classic Hangman game where players guess letters to form a word. Each incorrect guess adds a part to the "hangman", and the game ends when either the word is fully guessed or the hangman is completed.
 
-![Hangma image](images/hg-win.png)
-
 ## How to Play
 1. A random word is selected.
 2. Players are shown the word with hidden letters represented by underscores.
