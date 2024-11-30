@@ -41,6 +41,9 @@
   .button-primary {
     @apply flex justify-center items-center bg-gray-400  enabled:hover:bg-red-500 enabled:hover:text-zinc-50 rounded-md font-medium px-5 py-2 disabled:opacity-20 disabled:cursor-not-allowed
   }
+  .button-secondary{
+    @apply border border-black rounded-md hover:bg-slate-100 dark:border-white dark:hover:bg-zinc-500
+  }
   .letter{
     @apply mx-2 text-3xl font-medium
   }
@@ -59,5 +62,18 @@
   .logo-textSM{
     @apply text-xl
   }
+  .result-header{
+    @apply text-2xl font-bold mt-4
+  }
+  .result-header.win{
+    @apply text-lime-600
+  }
+  .result-header.lose{
+    @apply text-red-600
+  }
+  .result-word{
+    @apply font-medium uppercase
+  }
+
 }
 
